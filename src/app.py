@@ -49,7 +49,7 @@ def parse_and_plot_electricity(xml_source, is_file=True):
                   labels={
                      "Timestamp": "Timestamp",
                      "Usage_kWh": "Usage (kWh)"
-                  }, title='Ben and Naomi\'s Electricity Use', template="plotly_white")
+                  }, title='Home Electricity Use', template="plotly_white")
 
     fig.show()
 
